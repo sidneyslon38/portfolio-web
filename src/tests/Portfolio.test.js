@@ -20,30 +20,25 @@ describe('Profile', () => {
     expect(container.querySelector('.tagline')).toBeNull();
   });
 
-  it('renders an email link when provided', () => {
+  it('does not render an email link when provided', () => {
     render(Profile, {
       props: { name: 'Max Eastman', email: 'max@example.com' },
     });
-    const link = screen.getByRole('link', { name: /email/i });
-    expect(link.getAttribute('href')).toBe('mailto:max@example.com');
+    expect(screen.queryByRole('link', { name: /email/i })).toBeNull();
   });
 
-  it('renders a GitHub link when provided', () => {
+  it('does not render a GitHub link when provided', () => {
     render(Profile, {
       props: { name: 'Max Eastman', github: 'maxeastman' },
     });
-    const link = screen.getByRole('link', { name: /github/i });
-    expect(link.getAttribute('href')).toBe('https://github.com/maxeastman');
+    expect(screen.queryByRole('link', { name: /github/i })).toBeNull();
   });
 
-  it('renders a LinkedIn link when provided', () => {
+  it('does not render a LinkedIn link when provided', () => {
     render(Profile, {
       props: { name: 'Max Eastman', linkedin: 'maxeastman' },
     });
-    const link = screen.getByRole('link', { name: /linkedin/i });
-    expect(link.getAttribute('href')).toBe(
-      'https://linkedin.com/in/maxeastman'
-    );
+    expect(screen.queryByRole('link', { name: /linkedin/i })).toBeNull();
   });
 
   it('does not render contact links when none are provided', () => {

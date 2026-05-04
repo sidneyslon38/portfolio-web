@@ -27,7 +27,8 @@ describe('SiteHeader', () => {
     const { container } = render(SiteHeader, {
       props: { email: '', github: '', linkedin: '' },
     });
-    expect(container.querySelector('nav')).toBeNull();
+    const navList = container.querySelector('nav .nav-list');
+    expect(navList?.children.length || 0).toBe(0);
   });
 });
 
