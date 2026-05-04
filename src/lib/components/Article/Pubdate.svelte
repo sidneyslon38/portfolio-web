@@ -42,7 +42,6 @@ USAGE EXAMPLE:
   .pubdate {
     font-family: var(--font-sans);
     font-size: var(--font-size-sm);
-    color: var(--color-medium-gray);
     text-transform: uppercase;
     letter-spacing: var(--letter-spacing-wider);
     margin: var(--spacing-xxs) 0;

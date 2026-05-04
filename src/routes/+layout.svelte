@@ -20,7 +20,12 @@ Use it for headers, footers, and navigation that appear on all pages.
 </script>
 
 {#if page.data.showHeader !== false}
-  <SiteHeader />
+  <SiteHeader
+    name={page.data.name}
+    email={page.data.email}
+    github={page.data.github}
+    linkedin={page.data.linkedin}
+  />
 {/if}
 
 <main>
@@ -29,7 +34,11 @@ Use it for headers, footers, and navigation that appear on all pages.
 </main>
 
 {#if page.data.showFooter !== false}
-  <SiteFooter />
+  <SiteFooter
+    email={page.data.email}
+    github={page.data.github}
+    linkedin={page.data.linkedin}
+  />
 {/if}
 
 <style>

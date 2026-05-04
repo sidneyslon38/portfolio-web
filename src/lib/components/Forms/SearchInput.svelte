@@ -52,7 +52,7 @@ SearchInput.svelte — A search text input with magnifying glass icon.
     font-family: var(--font-sans);
     font-size: var(--font-size-sm);
     font-weight: var(--font-weight-semibold);
-    color: var(--color-dark);
+    color: var(--color-white);
     margin-bottom: var(--spacing-xxs);
     text-transform: uppercase;
     letter-spacing: var(--letter-spacing-wider);

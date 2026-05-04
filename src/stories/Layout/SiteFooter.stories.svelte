@@ -2,9 +2,7 @@
   SiteFooter.stories.svelte
 
   Stories for the SiteFooter component.
-  SiteFooter displays the CUNY logo and navigation links at the bottom of every page.
-
-  This component takes no props — it renders the standard footer layout.
+  SiteFooter displays the footer contact icons and copyright at the bottom of every page.
 -->
 <script module>
   import { defineMeta } from '@storybook/addon-svelte-csf';
@@ -21,5 +19,12 @@
   });
 </script>
 
-<!-- Default: the standard site footer -->
-<Story name="Default" />
+<!-- Default: the footer with contact icons -->
+<Story
+  name="Default"
+  args={{
+    email: 'lorem@example.com',
+    github: 'loremipsum',
+    linkedin: 'loremipsum',
+  }}
+/>

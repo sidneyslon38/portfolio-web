@@ -6,45 +6,43 @@ import SiteFooter from '$lib/components/Layout/SiteFooter.svelte';
 describe('SiteHeader', () => {
   it('renders the logo', () => {
     render(SiteHeader);
-    expect(screen.getByLabelText('NYCity News Service')).toBeTruthy();
+    expect(screen.getByText('Sidney Slon')).toBeTruthy();
   });
 
-  it('renders default navigation links', () => {
-    render(SiteHeader);
-    expect(screen.getByText('Arts & Culture')).toBeTruthy();
-    expect(screen.getByText('Politics')).toBeTruthy();
-  });
-
-  it('renders custom navigation links', () => {
+  it('renders header icons', () => {
     render(SiteHeader, {
       props: {
-        navLinks: [{ label: 'Sports', href: '/sports' }],
+        email: 'lorem@example.com',
+        github: 'loremipsum',
+        linkedin: 'loremipsum',
       },
     });
-    expect(screen.getByText('Sports')).toBeTruthy();
+
+    expect(screen.getByLabelText('Email')).toBeTruthy();
+    expect(screen.getByLabelText('GitHub')).toBeTruthy();
+    expect(screen.getByLabelText('LinkedIn')).toBeTruthy();
   });
 
-  it('hides nav when navLinks is empty', () => {
+  it('hides icons when no contact props are provided', () => {
     const { container } = render(SiteHeader, {
-      props: { navLinks: [] },
+      props: { email: '', github: '', linkedin: '' },
     });
     expect(container.querySelector('nav')).toBeNull();
   });
 });
 
 describe('SiteFooter', () => {
-  it('renders the CUNY logo', () => {
-    render(SiteFooter);
-    expect(
-      screen.getByLabelText(
-        'Craig Newmark Graduate School of Journalism at CUNY'
-      )
-    ).toBeTruthy();
-  });
+  it('renders contact links', () => {
+    render(SiteFooter, {
+      props: {
+        email: 'lorem@example.com',
+        github: 'loremipsum',
+        linkedin: 'loremipsum',
+      },
+    });
 
-  it('renders footer navigation links', () => {
-    render(SiteFooter);
-    expect(screen.getByText('ABOUT US')).toBeTruthy();
-    expect(screen.getByText('CONTACT US')).toBeTruthy();
+    expect(screen.getByText('Email')).toBeTruthy();
+    expect(screen.getByText('GitHub')).toBeTruthy();
+    expect(screen.getByText('LinkedIn')).toBeTruthy();
   });
 });

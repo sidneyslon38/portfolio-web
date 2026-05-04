@@ -17,13 +17,15 @@ Card.svelte — A card container with optional image, link, and footer actions.
 </script>
 
 {#snippet cardContent()}
-  {#if image}
-    <div class="card-image">
-      <img src={resolvedImage} alt={imageAlt} />
+  <div class="card-main">
+    {#if image}
+      <div class="card-image">
+        <img src={resolvedImage} alt={imageAlt} />
+      </div>
+    {/if}
+    <div class="card-body">
+      {@render children()}
     </div>
-  {/if}
-  <div class="card-body">
-    {@render children()}
   </div>
   {#if footer}
     <div class="card-footer">
@@ -66,17 +68,32 @@ Card.svelte — A card container with optional image, link, and footer actions.
     }
   }
 
+  .card-main {
+    display: flex;
+    align-items: stretch;
+    flex: 1;
+    min-width: 0;
+  }
+
   .card-image {
+    flex: 0 0 40%;
+    max-width: 40%;
+
     img {
       display: block;
       width: 100%;
-      height: auto;
+      height: 100%;
+      object-fit: cover;
     }
   }
 
   .card-body {
     padding: var(--spacing-md, 1rem);
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 0;
 
     :global(h3) {
       font-size: 1.1rem;

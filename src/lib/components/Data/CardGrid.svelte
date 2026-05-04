@@ -2,8 +2,8 @@
 @component
 CardGrid.svelte — A responsive grid layout for Card components.
 
-Displays children in a single column on mobile, two columns on tablet,
-and three columns on desktop.
+  Displays children in a single column on mobile and two columns on tablet
+  and desktop.
 -->
 <script>
   let { children } = $props();
@@ -27,7 +27,7 @@ and three columns on desktop.
     }
 
     @include desktop {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 </style>

@@ -20,6 +20,7 @@
   --color-medium-gray: #666666;
   --color-border: #e0e0e0;
   --color-shadow: rgba(0, 0, 0, 0.1);
+  --color-background: #647086;
 
   /* CUNY Blue Gradient Colors */
   --color-cuny-blue-dark: #002266;
@@ -148,6 +149,7 @@
 html {
   font-size: var(--font-size-root);
   scroll-behavior: smooth;
+  background-color: var(--color-background);
 }
 
 body {
@@ -155,7 +157,7 @@ body {
   font-size: var(--font-size-base);
   line-height: var(--leading-normal);
   color: var(--color-text);
-  background-color: var(--color-white);
+  background-color: var(--color-background);
 }
 /* ===========================================
    Typography

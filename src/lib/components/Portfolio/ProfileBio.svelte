@@ -20,7 +20,7 @@ Accepts a string and renders paragraphs separated by blank lines.
 
 <style lang="scss">
   .now-next {
-    margin-top: var(--spacing-sm);
+    margin-top: 0;
   }
 
   .now-next p {

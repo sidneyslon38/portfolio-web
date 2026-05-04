@@ -2,11 +2,12 @@
   SiteHeader.stories.svelte
 
   Stories for the SiteHeader component.
-  SiteHeader displays the NYCity News Service masthead with an animated gradient
-  background and optional navigation links.
+  SiteHeader displays the header background with the site name on the left and
+  round icon links on the right.
 
   Props:
-  - navLinks: Array of { href, label } objects for navigation items
+  - name: Site name text
+  - email, github, linkedin: Contact links used for the round header icons
 -->
 <script module>
   import { defineMeta } from '@storybook/addon-svelte-csf';
@@ -20,31 +21,16 @@
       // Use fullscreen layout so the header spans the full story width
       layout: 'fullscreen',
     },
-    argTypes: {
-      navLinks: {
-        control: 'object',
-        description:
-          'Array of navigation link objects with href and label properties',
-      },
-    },
   });
 </script>
 
-<!-- Default: header with the standard navigation links -->
-<Story name="Default" />
-
-<!-- No Navigation: header with nav links removed -->
-<Story name="No Navigation" args={{ navLinks: [] }} />
-
-<!-- Single Link: header with just one navigation item -->
+<!-- Default: header with name and social icons -->
 <Story
-  name="Single Link"
+  name="Default"
   args={{
-    navLinks: [
-      {
-        href: 'https://www.nycitynewsservice.com/nycns_topics/education/',
-        label: 'Education',
-      },
-    ],
+    name: 'Sidney Slon',
+    email: 'lorem@example.com',
+    github: 'loremipsum',
+    linkedin: 'loremipsum',
   }}
 />

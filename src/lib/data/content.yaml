@@ -1,0 +1,93 @@
+profile:
+  name: Hi, I'm Sid
+  tagline: NYC-based journalist, writer and creative.
+  photo: /portfolio_graphics/nb_and_pen.png
+  photoAlt: A pixel-art drawing of a reporter's notebook and pen.
+  email: sidslon@gmail.com
+  github: sidneyslon38
+  linkedin: sidneyslon
+  bio: |
+    I'm a graduate student at the CUNY Craig Newmark Graduate School of Journalism, focused on the intersection of data, climate reporting and local accountability to present important stories for all New Yorkers. 
+    
+    I'm looking for an opportunity at a U.S. newsroom that allows me to work on multiple fronts, as a data analyst, shoe-leather reporter, and visual storyteller.
+  
+clips:
+  - slug: pedplaza
+    title: Where the Sidewalk Ends, A Plaza Grows in Brooklyn
+    pubdate: 01/08/2026
+    outlet: New York City News Service
+    image: /portfolio_images/pedplaza-image.jpg
+    imageAlt: Trash collects along the Caesar’s Bay waterfront, October 2025
+    description: A South Brooklyn non-profit announced plans to convert their neighborhood's neglected waterfront into a pedestrian plaza. It would be one of the first of its kind in the city, but the project faces delays and an immense amount of garbage. 
+    url: https://www.nycitynewsservice.com/2026/01/08/where-the-sidewalk-ends-a-plaza-grows-in-brooklyn/
+    skills: [reporting, multimedia storytelling, fact-checking]
+
+  - slug: 25billionbill
+    title: Data Centers’ $25B Pollution Pricetag
+    pubdate: 05/01/2026
+    outlet: U.S. News & World Report
+    image: /portfolio_images/datacenters-image.jpg
+    imageAlt: Bandit's Roost, a Riis photograph of an alley off Mulberry Street, 1888
+    description: Recent research highlights the environmental and health-related costs of U.S. data centers, as public opinion sours on their construction.
+    url: https://www.usnews.com/news/national-news/articles/2026-05-01/the-25-billion-bill-the-hidden-environmental-cost-of-americas-data-center-boom
+    skills: [reporting, data analysis, fact-checking]
+
+  - slug: covid-crashes
+    title: After COVID-19, South Brooklyn Pedestrians Face Riskier Roads
+    pubdate: 12/16/2025
+    outlet: New York City News Service
+    image: /portfolio_images/ped-injuries.png
+    imageAlt: A chart showing pedestrian injuries in South Brooklyn from 2012 to 2025.
+    description: An independent analysis of pedestrian injuries from car crashes before and after the peak of the COVID-19 pandemic, South Brooklyn and the rest of the borough saw a significant increase after 2020 that has still not dropped to pre-pandemic levels.
+    url: https://www.nycitynewsservice.com/2025/12/16/after-covid-19-south-brooklyn-pedestrians-face-riskier-roads/
+    skills: [reporting, data analysis, data visualization, multimedia storytelling, fact-checking]
+
+  - slug: climate-runners
+    title: They Ran 7 Marathons in 7 Days for Climate Justice. They're Aiming for New Distances
+    pubdate: 12/16/2025
+    outlet: New York City News Service
+    image: /portfolio_images/climate-runners.jpg
+    imageAlt: A group of runners in matching shirts, running down a city street.
+    description: A profile of a running activist group that ran between New York City and Washington, D.C. to protest rising authoritarianism and climate inaction.
+    url: https://www.nycitynewsservice.com/2025/12/16/they-ran-7-marathons-in-7-days-for-climate-justice-now-theyre-aiming-for-new-distances/
+    skills: [reporting, multimedia storytelling, fact-checking]
+  
+  - slug: sb-election-day
+    title: In Bensonhurst, Trump Loomed Large This Election Day. But Mamdani Gained Steam
+    pubdate: 11/05/2025
+    outlet: New York City News Service
+    image: /portfolio_images/election-day-2025.png
+    imageAlt: A voter shows his Trump card.
+    description: 2025 election day reporting in South Brooklyn neighborhoods, where voters were undecided on which of the three major candidates, Andrew Cuomo, Curtis Sliwa and Zohran Mamdani, to support.
+    url: https://www.nycitynewsservice.com/2025/11/05/in-bensonhurst-trump-still-looms-large-but-mamdani-is-gaining-steam/
+    skills: [reporting, multimedia storytelling, fact-checking]
+
+  - slug: hormuz-prices
+    title: The Strait of Hormuz Is Blocked. This Is What It Means for You.
+    pubdate: 04/07/2026
+    outlet: U.S. News & World Report
+    image: /portfolio_images/hormuz-prices.jpg
+    imageAlt: An image showing high gas prices.
+    description: A look into the various ways the Iran war and the resulting blockade of the Strait of Hormuz is impacting the Americans, from gas prices to the cost of consumer goods.
+    url: https://www.usnews.com/news/national-news/articles/2026-04-07/the-strait-of-hormuz-is-blocked-this-is-what-it-means-for-you
+    skills: [reporting, multimedia storytelling, fact-checking]
+
+  - slug: nurses-strike
+    title: For NYC Nurses, This Strike Is About Dignity
+    pubdate: 01/22/2026
+    outlet: Substack
+    image: /portfolio_images/nurses-strike.jpg
+    imageAlt: Mount Sinai Morningside nurse march outsude of the hospital, January 2026
+    description: An op-ed on the 2026 NYSNA strike, about why nurses deserve better pay and working conditions, and how the strike is about more than just money.
+    url: https://substack.com/home/post/p-185451710
+    skills: [reporting, multimedia storytelling, fact-checking]
+
+  - slug: air-quality-report 
+    title: Global Air Quality Missed the Mark in 2025
+    pubdate: 03/24/2026
+    outlet: U.S. News & World Report
+    image: /portfolio_images/air-quality.jpg
+    imageAlt: An image showing a smoggy city skyline.
+    description: Reviewing a March 2026 IQAir report on global air quality. The report found that a majority of cities across the globe had air quality levels below World Health Organization guidelines in 2025.
+    url: https://www.usnews.com/news/national-news/articles/2026-03-24/global-air-quality-missed-the-mark-in-2025
+    skills: [reporting, data analysis, data visualization, multimedia storytelling, fact-checking]
