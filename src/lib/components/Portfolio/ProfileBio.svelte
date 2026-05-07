@@ -28,5 +28,6 @@ Accepts a string and renders paragraphs separated by blank lines.
     margin: 0 0 var(--spacing-sm);
     max-width: 46rem;
     font-size: var(--font-size-lg);
+    color: var(--color-white);
   }
 </style>

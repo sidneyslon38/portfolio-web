@@ -12,10 +12,12 @@ USAGE EXAMPLE:
   import IconEmail from '$lib/components/Icons/IconEmail.svelte';
   import IconGitHub from '$lib/components/Icons/IconGitHub.svelte';
   import IconLinkedIn from '$lib/components/Icons/IconLinkedIn.svelte';
+  import IconInstagram from '$lib/components/Icons/IconInstagram.svelte';
 let {
     email = 'sidslon@gmail.com',
     github = 'sidneyslon38',
     linkedin = 'sidslon',
+    instagram = 'sidslon',
     myName = 'Sidney Slon',
   } = $props();
 const contacts = $derived(
@@ -42,6 +44,14 @@ const contacts = $derived(
             label: 'LinkedIn',
             external: true,
             icon: IconLinkedIn,
+          }
+        : null,
+      instagram
+        ? {
+            href: `https://instagram.com/${instagram}`,
+            label: 'Instagram',
+            external: true,
+            icon: IconInstagram,
           }
         : null,
     ].filter(Boolean)
@@ -94,7 +104,7 @@ const currentYear = new Date().getFullYear();
   }
 
   .footer-main {
-    background-color: #647086;
+    background-color: var(--color-dark-background);
     padding: var(--spacing-xl) var(--spacing-md);
   }
 
@@ -152,7 +162,7 @@ const currentYear = new Date().getFullYear();
 
   /* Bottom copyright bar */
   .footer-bottom {
-    background-color: #647086;
+    background-color: var(--color-dark-background);
     padding: var(--spacing-sm) var(--spacing-md);
     text-align: center;
   }

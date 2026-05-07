@@ -25,6 +25,7 @@ Use it for headers, footers, and navigation that appear on all pages.
     email={page.data.email}
     github={page.data.github}
     linkedin={page.data.linkedin}
+    resume={true}
   />
 {/if}
 

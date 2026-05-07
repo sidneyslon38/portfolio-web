@@ -50,9 +50,16 @@ Next, I'm exploring machine learning tools for document analysis."
   @use '$lib/styles' as *;
 
   .profile {
-    background-color: #f3f7ff;
-    border-radius: 25px;
-    border: 10px solid #909090;
+    background: 
+      linear-gradient(to bottom, 
+        transparent 0%, 
+        transparent 20px,
+        white 20px,
+        white 22px,
+        transparent 10px
+      ),
+      var(--color-black);
+    border-top: none;
     margin-bottom: var(--spacing-xl);
     padding: var(--spacing-md);
   }
@@ -76,8 +83,13 @@ Next, I'm exploring machine learning tools for document analysis."
     font-size: clamp(3.25rem, 7vw, 4.25rem);
     line-height: var(--leading-tight);
     margin: 0;
+    margin-top: var(--spacing-md);
     letter-spacing: var(--letter-spacing-tight);
     margin-bottom: var(--spacing-xxs);
+    font-family: 'Stack Sans Notch', sans-serif;
+    font-weight: 600;
+    color: var(--color-white);
+    font-size: var(--font-size-display);
 
     @include mobile {
       font-size: var(--font-size-display);
@@ -87,7 +99,7 @@ Next, I'm exploring machine learning tools for document analysis."
   .tagline {
     margin-top: var(--spacing-sm);
     font-size: var(--font-size-xl);
-    color: var(--color-text);
+    color: var(--color-white);
     line-height: var(--leading-caption);
     max-width: 42rem;
   }

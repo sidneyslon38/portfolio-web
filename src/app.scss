@@ -5,7 +5,7 @@
 @use '$lib/styles' as *;
 
 /* ---------- Google Fonts ---------- */
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Droid+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Droid+Sans:wght@400;700&family=Stack+Sans+Notch:wght@200..700&display=swap');
 
 /* ===========================================
    CSS Custom Properties
@@ -20,7 +20,9 @@
   --color-medium-gray: #666666;
   --color-border: #e0e0e0;
   --color-shadow: rgba(0, 0, 0, 0.1);
-  --color-background: #647086;
+  --color-background: #1c1c23;
+  --color-dark-background: #14141a;
+  --color-black: #000000;
 
   /* CUNY Blue Gradient Colors */
   --color-cuny-blue-dark: #002266;

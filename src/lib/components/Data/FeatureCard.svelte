@@ -70,14 +70,16 @@ Card.svelte — A card container with optional image, link, and footer actions.
 
   .card-main {
     display: flex;
+    flex-direction: column;
     align-items: stretch;
     flex: 1;
     min-width: 0;
   }
 
   .card-image {
-    flex: 0 0 40%;
-    max-width: 40%;
+    width: 100%;
+    aspect-ratio: 1;
+    flex: 0 0 auto;
 
     img {
       display: block;

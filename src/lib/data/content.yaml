@@ -1,15 +1,13 @@
 profile:
-  name: Hi, I'm Sid
-  tagline: NYC-based journalist, writer and creative.
-  photo: /portfolio_graphics/nb_and_pen.png
-  photoAlt: A pixel-art drawing of a reporter's notebook and pen.
-  email: sidslon@gmail.com
+  name: Journalist • Creative
+  tagline: NYC-based journalist growing experience with data analyses, visualizations, coverage of environmental issues and local accountability reporting.
+  photo: /portfolio_graphics/city_window_2.gif
+  photoAlt: A pixel-gif of a city window.
+  email: slonsc09@gmail.com
   github: sidneyslon38
-  linkedin: sidneyslon
+  linkedin: sidslon
   bio: |
-    I'm a graduate student at the CUNY Craig Newmark Graduate School of Journalism, focused on the intersection of data, climate reporting and local accountability to present important stories for all New Yorkers. 
-    
-    I'm looking for an opportunity at a U.S. newsroom that allows me to work on multiple fronts, as a data analyst, shoe-leather reporter, and visual storyteller.
+    I'm a student at the Craig Newmark Graduate School of Journalism, where I report on environmental and accountability topics. I am also a data journalist with experience investigating public datasets, using Python for analyses, and visualizing data with Svelte and Datawrapper.
   
 clips:
   - slug: pedplaza
@@ -18,19 +16,21 @@ clips:
     outlet: New York City News Service
     image: /portfolio_images/pedplaza-image.jpg
     imageAlt: Trash collects along the Caesar’s Bay waterfront, October 2025
-    description: A South Brooklyn non-profit announced plans to convert their neighborhood's neglected waterfront into a pedestrian plaza. It would be one of the first of its kind in the city, but the project faces delays and an immense amount of garbage. 
+    description: A small non-profit announces their plans to open South Brooklyn's first pedestrian plaza and clean up their waterfront in the process. The project is promising, but faces some challenges.
     url: https://www.nycitynewsservice.com/2026/01/08/where-the-sidewalk-ends-a-plaza-grows-in-brooklyn/
     skills: [reporting, multimedia storytelling, fact-checking]
+    highlight: true
 
   - slug: 25billionbill
     title: Data Centers’ $25B Pollution Pricetag
     pubdate: 05/01/2026
     outlet: U.S. News & World Report
-    image: /portfolio_images/datacenters-image.jpg
-    imageAlt: Bandit's Roost, a Riis photograph of an alley off Mulberry Street, 1888
+    image: /portfolio_images/us-news-default.jpg
+    imageAlt: The U.S. News & World Report logo.
     description: Recent research highlights the environmental and health-related costs of U.S. data centers, as public opinion sours on their construction.
     url: https://www.usnews.com/news/national-news/articles/2026-05-01/the-25-billion-bill-the-hidden-environmental-cost-of-americas-data-center-boom
     skills: [reporting, data analysis, fact-checking]
+    highlight: false
 
   - slug: covid-crashes
     title: After COVID-19, South Brooklyn Pedestrians Face Riskier Roads
@@ -38,9 +38,10 @@ clips:
     outlet: New York City News Service
     image: /portfolio_images/ped-injuries.png
     imageAlt: A chart showing pedestrian injuries in South Brooklyn from 2012 to 2025.
-    description: An independent analysis of pedestrian injuries from car crashes before and after the peak of the COVID-19 pandemic, South Brooklyn and the rest of the borough saw a significant increase after 2020 that has still not dropped to pre-pandemic levels.
+    description: An analysis of pedestrian injuries from vehicle collisions after the peak of the COVID-19 pandemic.
     url: https://www.nycitynewsservice.com/2025/12/16/after-covid-19-south-brooklyn-pedestrians-face-riskier-roads/
     skills: [reporting, data analysis, data visualization, multimedia storytelling, fact-checking]
+    highlight: true
 
   - slug: climate-runners
     title: They Ran 7 Marathons in 7 Days for Climate Justice. They're Aiming for New Distances
@@ -48,9 +49,10 @@ clips:
     outlet: New York City News Service
     image: /portfolio_images/climate-runners.jpg
     imageAlt: A group of runners in matching shirts, running down a city street.
-    description: A profile of a running activist group that ran between New York City and Washington, D.C. to protest rising authoritarianism and climate inaction.
+    description: Running activists prepare to run over 275 miles between NYC and D.C. to protest rising authoritarianism and climate inaction.
     url: https://www.nycitynewsservice.com/2025/12/16/they-ran-7-marathons-in-7-days-for-climate-justice-now-theyre-aiming-for-new-distances/
     skills: [reporting, multimedia storytelling, fact-checking]
+    highlight: true
   
   - slug: sb-election-day
     title: In Bensonhurst, Trump Loomed Large This Election Day. But Mamdani Gained Steam
@@ -60,17 +62,19 @@ clips:
     imageAlt: A voter shows his Trump card.
     description: 2025 election day reporting in South Brooklyn neighborhoods, where voters were undecided on which of the three major candidates, Andrew Cuomo, Curtis Sliwa and Zohran Mamdani, to support.
     url: https://www.nycitynewsservice.com/2025/11/05/in-bensonhurst-trump-still-looms-large-but-mamdani-is-gaining-steam/
-    skills: [reporting, multimedia storytelling, fact-checking]
+    skills: [reporting, multimedia storytelling, data analysis, fact-checking]
+    highlight: false
 
   - slug: hormuz-prices
     title: The Strait of Hormuz Is Blocked. This Is What It Means for You.
     pubdate: 04/07/2026
     outlet: U.S. News & World Report
-    image: /portfolio_images/hormuz-prices.jpg
-    imageAlt: An image showing high gas prices.
-    description: A look into the various ways the Iran war and the resulting blockade of the Strait of Hormuz is impacting the Americans, from gas prices to the cost of consumer goods.
+    image: /portfolio_images/us-news-default.jpg
+    imageAlt: The U.S. News & World Report logo.
+    description: A look into the various ways the Iran war and the resulting blockade of the Strait of Hormuz is impacting Americans, from gas prices to the cost of consumer goods.
     url: https://www.usnews.com/news/national-news/articles/2026-04-07/the-strait-of-hormuz-is-blocked-this-is-what-it-means-for-you
-    skills: [reporting, multimedia storytelling, fact-checking]
+    skills: [reporting, fact-checking]
+    highlight: false
 
   - slug: nurses-strike
     title: For NYC Nurses, This Strike Is About Dignity
@@ -81,13 +85,114 @@ clips:
     description: An op-ed on the 2026 NYSNA strike, about why nurses deserve better pay and working conditions, and how the strike is about more than just money.
     url: https://substack.com/home/post/p-185451710
     skills: [reporting, multimedia storytelling, fact-checking]
+    highlight: false
 
   - slug: air-quality-report 
     title: Global Air Quality Missed the Mark in 2025
     pubdate: 03/24/2026
     outlet: U.S. News & World Report
-    image: /portfolio_images/air-quality.jpg
-    imageAlt: An image showing a smoggy city skyline.
+    image: /portfolio_images/us-news-default.jpg
+    imageAlt: The U.S. News & World Report logo.
     description: Reviewing a March 2026 IQAir report on global air quality. The report found that a majority of cities across the globe had air quality levels below World Health Organization guidelines in 2025.
     url: https://www.usnews.com/news/national-news/articles/2026-03-24/global-air-quality-missed-the-mark-in-2025
     skills: [reporting, data analysis, data visualization, multimedia storytelling, fact-checking]
+    highlight: false
+
+  - slug: cyclist-injury-database
+    title: Cyclists Injured in Vehicle Collisions This Year
+    pubdate: 04/12/2026
+    outlet: Github
+    image: /portfolio_images/cyclist-database.png
+    imageAlt: The front page of the database website
+    description: A database I created tracking cyclist injuries from vehicle collisions in 2026. Searchable by date, location, and severity of injury. The database is built using Svelte.
+    url: https://sidneyslon38.github.io/database-explorer-slon/
+    skills: [data analysis, data visualization, web development]
+    highlight: true
+  
+  - slug: noise-complaint-map
+    title: Tracking NYC Noise Complaints
+    pubdate: 04/27/2026
+    outlet: Github
+    image: /portfolio_images/noise-map.png
+    imageAlt: An interactive map showing noise complaints across NYC.
+    description: An interactive map I created tracking noise complaints across NYC from 2025 to the present. The map is built using Svelte and open source MapLibre, analyzing data from the NYC Open Data portal for Vehicle Collisions.
+    url: https://sidneyslon38.github.io/slon-map-hw/
+    skills: [data analysis, data visualization, web development]
+    highlight: true
+  
+  - slug: nycha-elevators
+    title: As Summer Approaches, NYCHA Tenants in East Harlem Wait for Elevator Repairs
+    pubdate: 05/06/2026
+    outlet: City Limits
+    image: /portfolio_images/nycha-elevators.jpeg
+    imageAlt: A NYCHA building in East Harlem.
+    description: An article I co-authored about elevator repairs at Morris Park Senior Citizens Home in East Harlem, where residents are left feeling worried about the next outage as summer approaches.
+    url: https://citylimits.org/as-summer-approaches-nycha-tenants-in-east-harlem-wait-for-elevator-repairs/
+    skills: [reporting, photojournalism, data analysis, fact-checking]
+    highlight: true
+  
+  - slug: states-redistricting
+    title: SCOTUS Ruling Ignites Redistricting War
+    pubdate: 05/05/2026
+    outlet: U.S. News & World Report
+    image: /portfolio_images/us-news-default.jpg
+    imageAlt: The U.S. News & World Report logo.
+    description: A brief review of the states that are redistricting, following the Supreme Court's recent ruling that struck down Section 2 of the Voting Rights Act.
+    url: https://www.usnews.com/news/national-news/articles/2026-05-05/gop-fast-tracks-new-voting-maps-after-landmark-supreme-court-ruling
+    skills: [reporting, fact-checking]
+    highlight: false
+  
+  - slug: 60days-gasprices
+    title: How 60 Days at War Impacts Gas Prices
+    pubdate: 05/01/2026
+    outlet: U.S. News & World Report
+    image: /portfolio_images/weekly-gas-price.png
+    imageAlt: The U.S. News & World Report logo.
+    description: An update on how the Iran war and resulting blockade of the Strait of Hormuz is impacting U.S. gas prices, 60 days into the conflict.
+    url: https://www.usnews.com/news/national-news/articles/2026-05-05/gop-fast-tracks-new-voting-maps-after-landmark-supreme-court-ruling
+    skills: [reporting, fact-checking]
+    highlight: false
+
+  - slug: jetfuel-shortage
+    title: Jet Fuel Shortage Could Spike Costs
+    pubdate: 04/21/2026
+    outlet: U.S. News & World Report
+    image: /portfolio_images/us-news-default.jpg
+    imageAlt: The U.S. News & World Report logo.
+    description: A review of the jet fuel shortage caused by the Iran war and resulting blockade of the Strait of Hormuz, and how it could impact the cost of air travel for Americans.
+    url: https://www.usnews.com/news/national-news/articles/2026-04-21/how-the-european-jet-fuel-shortage-could-impact-summer-travel
+    skills: [reporting, fact-checking]
+    highlight: false
+
+  - slug: after-iran-ceasefire
+    title: What Comes Next After Iran Ceasefire?
+    pubdate: 04/14/2026
+    outlet: U.S. News & World Report
+    image: /portfolio_images/us-news-default.jpg
+    imageAlt: The U.S. News & World Report logo.
+    description: A review of how the Iran war is impacting other countries, and what could come next after the temporary ceasefire with Iran and U.S.
+    url: https://www.usnews.com/news/national-news/articles/2026-04-14/iran-war-update-global-poverty-risks-increase-as-ceasefire-deadline-looms
+    skills: [reporting, fact-checking]
+    highlight: false
+  
+  - slug: gas-prices-rising
+    title: Where Gas Prices Are Rising the Most
+    pubdate: 03/31/2026
+    outlet: U.S. News & World Report
+    image: /portfolio_images/gas-price-map-1.png
+    imageAlt: A Datawrapper map of U.S. states colored by gas price increases.
+    description: A look at where gas prices are rising across the U.S. following the Iran war and resulting blockade of the Strait of Hormuz.
+    url: https://www.usnews.com/news/best-states/articles/states-with-the-highest-gas-prices
+    skills: [reporting, data visualization, fact-checking]
+    highlight: false
+
+  - slug: us-travel-warnings
+    title: U.S. Warns Americans Abroad Amid War
+    pubdate: 03/24/2026
+    outlet: U.S. News & World Report
+    image: /portfolio_images/middle-east-travel-map.png
+    imageAlt: A Datawrapper map of Middle Eastern countries colored by U.S. travel advisories.
+    description: A review of U.S. travel advisories following the start of the Iran war and the U.S. invasion of Venezuela.
+    url: https://www.usnews.com/news/best-countries/articles/places-the-us-government-warns-not-to-travel-right-now
+    skills: [reporting, data visualization, fact-checking]
+    highlight: false
