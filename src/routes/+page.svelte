@@ -54,6 +54,7 @@
 </div>
 
 <style lang="scss">
+  @use '$lib/styles' as *;
 
   :global(body),
   :global(html) {
@@ -76,7 +77,15 @@
   }
 
   .featured-clips :global(.card-grid) {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include desktop {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 
   .portfolio-button {
@@ -110,6 +119,5 @@
       font-size: var(--font-size-display);
     }
   }
-
 
 </style>
