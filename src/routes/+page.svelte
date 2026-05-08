@@ -47,7 +47,7 @@
 </div>
 
 <button class="portfolio-button">
-  <a href={`${base}/portfolio-database`}>To view my entire portfolio</a>
+  <a href={`${base}/portfolio-database`}>To search my portfolio</a>
   <p>➭</p>
 </button>
 

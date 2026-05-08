@@ -12,7 +12,8 @@
           const q = searchTerm.toLowerCase();
           return (
             (clip.title && clip.title.toLowerCase().includes(q)) ||
-            (clip.pubdate && clip.pubdate.toLowerCase().includes(q))
+            (clip.pubdate && clip.pubdate.toLowerCase().includes(q)) ||
+            (clip.outlet && clip.outlet.toLowerCase().includes(q))
           );
         })
       : data.content.clips
@@ -29,7 +30,7 @@
 <div class="clips-search">
 
 <div class="search-input">
-  <SearchInput placeholder="Search for a headline or publication date..." bind:value={searchTerm} />
+  <SearchInput placeholder="Search for an article, publication date, or outlet..." bind:value={searchTerm} />
 </div>
   <CardGrid>
     {#each filteredClips as clip (clip.title)}
