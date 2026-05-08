@@ -5,17 +5,23 @@ SiteHeader.svelte — Minimal site header
 <script>
   import { base } from '$app/paths';
   import IconEmail from '$lib/components/Icons/IconEmail.svelte';
+  import IconGitHub from '$lib/components/Icons/IconGitHub.svelte';
+  import IconLinkedIn from '$lib/components/Icons/IconLinkedIn.svelte';
   import IconResume from '$lib/components/Icons/IconResume.svelte';
 
   let {
     name = 'Sidney Slon',
     email = '',
+    github = '',
+    linkedin = '',
     resume = '',
   } = $props();
 
   let contacts = $derived(
     [
       email ? { href: `mailto:${email}`, icon: IconEmail, label: 'Email' } : null,
+      github ? { href: `https://github.com/${github}`, icon: IconGitHub, label: 'GitHub' } : null,
+      linkedin ? { href: `https://linkedin.com/in/${linkedin}`, icon: IconLinkedIn, label: 'LinkedIn' } : null,
       resume ? { href: `${base}/SSlon_Resume_May2026.pdf`, icon: IconResume, label: 'Resume' } : null,
     ].filter(Boolean)
   );
