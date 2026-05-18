@@ -46,10 +46,10 @@
   </CardGrid>
 </div>
 
-<button class="portfolio-button">
-  <a href={`${base}/portfolio-database`}>To search my portfolio</a>
+<a href={`${base}/portfolio-database`} class="portfolio-button">
+  <span>To search my portfolio</span>
   <p>➭</p>
-</button>
+</a>
 
 </div>
 
@@ -90,6 +90,7 @@
 
   .portfolio-button {
     display: flex;
+    width: fit-content;
     align-items: center;
     gap: var(--spacing-sm);
     margin: var(--spacing-lg) 0 var(--spacing-lg) auto;
@@ -103,11 +104,6 @@
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
-
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
 
     &:hover {
       background-color: var(--color-medium-gray);

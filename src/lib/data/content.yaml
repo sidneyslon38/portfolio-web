@@ -149,7 +149,7 @@ clips:
     image: /portfolio_images/weekly-gas-price.png
     imageAlt: The U.S. News & World Report logo.
     description: An update on how the Iran war and resulting blockade of the Strait of Hormuz is impacting U.S. gas prices, 60 days into the conflict.
-    url: https://www.usnews.com/news/national-news/articles/2026-05-05/gop-fast-tracks-new-voting-maps-after-landmark-supreme-court-ruling
+    url: https://www.usnews.com/news/national-news/articles/2026-05-01/gas-prices-hit-highest-mark-since-the-start-of-the-iran-war
     skills: [reporting, fact-checking]
     highlight: false
 
@@ -194,5 +194,16 @@ clips:
     imageAlt: A Datawrapper map of Middle Eastern countries colored by U.S. travel advisories.
     description: A review of U.S. travel advisories following the start of the Iran war and the U.S. invasion of Venezuela.
     url: https://www.usnews.com/news/best-countries/articles/places-the-us-government-warns-not-to-travel-right-now
+    skills: [reporting, data visualization, fact-checking]
+    highlight: false
+  
+  - slug: college-grad-unemployment
+    title: Here’s What to Know About Post-Grad Unemployment
+    pubdate: 05/12/2026
+    outlet: U.S. News & World Report
+    image: /portfolio_images/us-news-default.jpg
+    imageAlt: A Datawrapper graph showing unemployment rates for recent college graduates.
+    description: A review of the rising unemployment rates for recent college graduates, who it affects most and how AI plays a part.
+    url: https://www.usnews.com/news/national-news/articles/2026-05-12/heres-what-to-know-about-post-grad-unemployment
     skills: [reporting, data visualization, fact-checking]
     highlight: false

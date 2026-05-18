@@ -22,6 +22,7 @@
       const dateB = new Date(b.pubdate);
       return dateB - dateA; // most recent first
     })
+    .slice(0, 10) // Show only top 10 most recent
   );
 </script>
 
@@ -31,6 +32,13 @@
 
 <div class="search-input">
   <SearchInput placeholder="Search for an article, publication date, or outlet..." bind:value={searchTerm} />
+</div>
+<div class="results-description">
+  {#if searchTerm}
+    <p>Showing {filteredClips.length} results for "{searchTerm}"</p>
+  {:else}
+    <p>Showing 10 most recent results...</p>
+  {/if}
 </div>
   <CardGrid>
     {#each filteredClips as clip (clip.title)}
@@ -55,7 +63,7 @@
   }
 
   .search-input {
-    margin: var(--spacing-lg) auto;
+    margin: var(--spacing-sm) auto;
   }
 
   .clips-search {
@@ -67,6 +75,12 @@
     text-align: center;
     font-family: var(--font-serif);
     color: var(--color-white);
+  }
+
+  .results-description {
+    margin-bottom: var(--spacing-lg);
+    color: var(--color-light-gray);
+    font-style: italic;
   }
 
 </style>
