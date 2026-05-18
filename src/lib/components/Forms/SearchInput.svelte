@@ -6,7 +6,7 @@ SearchInput.svelte — A search text input with magnifying glass icon.
   let {
     placeholder = 'Search…',
     value = $bindable(''),
-    label = 'Search My Work',
+    label = 'Search',
     oninput = () => {},
   } = $props();
 </script>
