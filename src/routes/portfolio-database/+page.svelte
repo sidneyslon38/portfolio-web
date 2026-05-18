@@ -13,7 +13,8 @@
           return (
             (clip.title && clip.title.toLowerCase().includes(q)) ||
             (clip.pubdate && clip.pubdate.toLowerCase().includes(q)) ||
-            (clip.outlet && clip.outlet.toLowerCase().includes(q))
+            (clip.outlet && clip.outlet.toLowerCase().includes(q)) ||
+            (clip.description && clip.description.toLowerCase().includes(q))
           );
         })
       : data.content.clips
