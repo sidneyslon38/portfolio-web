@@ -207,3 +207,14 @@ clips:
     url: https://www.usnews.com/news/national-news/articles/2026-05-12/heres-what-to-know-about-post-grad-unemployment
     skills: [reporting, data visualization, fact-checking]
     highlight: false
+
+  - slug: greenroof-interactive
+    title: A New Yorker's Guide to Green Roofs
+    pubdate: 05/18/2026
+    outlet: Github
+    image: /portfolio_images/greenroofs.png
+    imageAlt: A building with a green roof, and the article headline.
+    description: An interactive explainer guide I reported, wrote and coded for New Yorkers to learn more about green roofs. Article includes a green roof data visualization with MapLibre, sourcing data I analyzed using Pandas and Geopandas Python library.
+    url: https://sidneyslon38.github.io/green-roof-interactive/
+    skills: [interactive web coding, reporting, data visualization, data analysis, fact-checking]
+    highlight: true
