@@ -118,7 +118,7 @@ clips:
     description: An interactive map I created tracking noise complaints across NYC from 2025 to the present. The map is built using Svelte and open source MapLibre, analyzing data from the NYC Open Data 311 complaints.
     url: https://sidneyslon38.github.io/slon-map-hw/
     skills: [data analysis, data visualization, web development]
-    highlight: true
+    highlight: false
   
   - slug: nycha-elevators
     title: As Summer Approaches, NYCHA Tenants in East Harlem Wait for Elevator Repairs
