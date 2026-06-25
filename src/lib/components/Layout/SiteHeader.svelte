@@ -22,7 +22,7 @@ SiteHeader.svelte — Minimal site header
       email ? { href: `mailto:${email}`, icon: IconEmail, label: 'Email' } : null,
       github ? { href: `https://github.com/${github}`, icon: IconGitHub, label: 'GitHub' } : null,
       linkedin ? { href: `https://linkedin.com/in/${linkedin}`, icon: IconLinkedIn, label: 'LinkedIn' } : null,
-      resume ? { href: `${base}/SSlon_Resume_May2026.pdf`, icon: IconResume, label: 'Resume' } : null,
+      resume ? { href: `${base}/SSlon_Resume_2026.pdf`, icon: IconResume, label: 'Resume' } : null,
     ].filter(Boolean)
   );
 </script>

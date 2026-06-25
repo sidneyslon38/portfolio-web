@@ -218,3 +218,25 @@ clips:
     url: https://sidneyslon38.github.io/green-roof-interactive/
     skills: [interactive web coding, reporting, data visualization, data analysis, fact-checking]
     highlight: true
+  
+  - slug: protein-gap
+    title: Hatch Wants to Close the Animal Protein Gap
+    pubdate: 06/09/2026
+    outlet: Food Bank News
+    image: /portfolio_images/foodbanknews.jpg
+    imageAlt: Food Bank News logo.
+    description: An article about Hatch for Hunger, a non-profit that is working to close the animal protein gap in the U.S. charitable food system by establishing a coalition of non-profit organizations, industry food producers and government agencies.
+    url: https://foodbanknews.org/hatch-wants-to-close-the-animal-protein-gap/
+    skills: [reporting, fact-checking]
+    highlight: false
+  
+  - slug: foodalert-app
+    title: This Food Rescue App Would Increase Donation Volumes
+    pubdate: 06/19/2026
+    outlet: Food Bank News
+    image: /portfolio_images/foodbanknews.jpg
+    imageAlt: Food Bank News logo.
+    description: An article about John Lowrey, a professor who is developing a business-to-business food rescue app to rival Feeding America's Meal Connect app. FoodALERT would allow independent food banks and Feeding America partners to use up-to-date donation data, decreasing food waste across the U.S.
+    url: https://foodbanknews.org/this-food-rescue-app-wants-to-increase-donation-volumes/
+    skills: [reporting, fact-checking]
+    highlight: false
