@@ -240,3 +240,14 @@ clips:
     url: https://foodbanknews.org/this-food-rescue-app-wants-to-increase-donation-volumes/
     skills: [reporting, fact-checking]
     highlight: false
+  
+  - slug: commonpantry-hygiene
+    title: NYC Pantry Goes All In on Hygiene Services
+    pubdate: 07/02/2026
+    outlet: Food Bank News
+    image: /portfolio_images/foodbanknews.jpg
+    imageAlt: Food Bank News logo.
+    description: An article about New York Common Pantry's hygiene services, including showers, laundry and haircuts.
+    url: https://foodbanknews.org/nyc-pantry-goes-all-in-on-hygiene-services/
+    skills: [reporting, fact-checking]
+    highlight: false
