@@ -107,7 +107,7 @@ clips:
     description: A database I created tracking cyclist injuries from vehicle collisions in 2026. Searchable by date, location, and severity of injury. The database is built using Svelte.
     url: https://sidneyslon38.github.io/database-explorer-slon/
     skills: [data analysis, data visualization, web development]
-    highlight: true
+    highlight: false
   
   - slug: noise-complaint-map
     title: Tracking NYC Noise Complaints
@@ -250,4 +250,26 @@ clips:
     description: An article about New York Common Pantry's hygiene services, including showers, laundry and haircuts.
     url: https://foodbanknews.org/nyc-pantry-goes-all-in-on-hygiene-services/
     skills: [reporting, fact-checking]
+    highlight: false
+
+  - slug: solarroof-foodbanks
+    title: Food Banks Carve New Pathways To Solar Energy
+    pubdate: 07/21/2026
+    outlet: Food Bank News
+    image: /portfolio_images/foodbank-solarroof.jpg
+    imageAlt: Food Bank of the Rockies solar roof, with a blue sky and clouds in the background.
+    description: An article about food banks that are financing large solar projects, even amid federal cuts to renewable energy support.
+    url: https://foodbanknews.org/food-banks-carve-new-pathways-to-solar-energy/
+    skills: [reporting, fact-checking]
+    highlight: true
+
+  - slug: foodbanknews-2026advocacy
+    title: SNAP Takes Center Stage In Online Advocacy Efforts
+    pubdate: 08/11/2026
+    outlet: Food Bank News
+    image: /portfolio_images/fbn-2026honorroll.png
+    imageAlt: 2026 Food Bank News Advocacy Honor Roll report.
+    description: An article and data report for Food Bank News' 2026 Advocacy Honor Roll, which highlights the top 100 food banks by revenue for their online advocacy activity, and 2026 trends among their websites.
+    url: https://foodbanknews.org/snap-takes-center-stage-in-online-advocacy-efforts/
+    skills: [data analysis, data visualization, research, reporting, fact-checking]
     highlight: false

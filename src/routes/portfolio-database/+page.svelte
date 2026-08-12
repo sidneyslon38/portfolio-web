@@ -6,7 +6,10 @@
 
   let { data } = $props();
   let searchTerm = $state('');
-  let filteredClips = $derived(
+  let currentPage = $state(1);
+  const pageSize = 10;
+
+  let sortedClips = $derived(
     (searchTerm
       ? data.content.clips.filter((clip) => {
           const q = searchTerm.toLowerCase();
@@ -23,8 +26,26 @@
       const dateB = new Date(b.pubdate);
       return dateB - dateA; // most recent first
     })
-    .slice(0, 10) // Show only top 10 most recent
   );
+
+  let totalPages = $derived(Math.max(1, Math.ceil(sortedClips.length / pageSize)));
+
+  let paginatedClips = $derived(
+    sortedClips.slice((currentPage - 1) * pageSize, currentPage * pageSize)
+  );
+
+  // Reset to page 1 whenever the search term changes
+  $effect(() => {
+    searchTerm;
+    currentPage = 1;
+  });
+
+  function goToPage(page) {
+    if (page < 1 || page > totalPages) return;
+    currentPage = page;
+    // optional: scroll back to top of results when flipping pages
+    document.querySelector('.clips-search')?.scrollIntoView({ behavior: 'smooth' });
+  }
 </script>
 
 <div class="container wide">
@@ -36,13 +57,13 @@
 </div>
 <div class="results-description">
   {#if searchTerm}
-    <p>Showing {filteredClips.length} results for "{searchTerm}"</p>
+    <p>Showing {sortedClips.length} result{sortedClips.length === 1 ? '' : 's'} for "{searchTerm}"</p>
   {:else}
-    <p>Showing 10 most recent results...</p>
+    <p>Results sorted by publication date</p>
   {/if}
 </div>
   <CardGrid>
-    {#each filteredClips as clip (clip.title)}
+    {#each paginatedClips as clip (clip.title)}
       <Card
         href={`${base}/clips/${clip.slug}`}
         image={clip.image}
@@ -53,6 +74,28 @@
       </Card>
     {/each}
   </CardGrid>
+
+  {#if totalPages > 1}
+    <div class="pagination">
+      <button
+        class="page-btn"
+        disabled={currentPage === 1}
+        onclick={() => goToPage(currentPage - 1)}
+      >
+        &larr; Prev
+      </button>
+
+      <span class="page-indicator">Page {currentPage} of {totalPages}</span>
+
+      <button
+        class="page-btn"
+        disabled={currentPage === totalPages}
+        onclick={() => goToPage(currentPage + 1)}
+      >
+        Next &rarr;
+      </button>
+    </div>
+  {/if}
 </div>
 </div>
 
@@ -80,6 +123,38 @@
 
   .results-description {
     margin-bottom: var(--spacing-lg);
+    color: var(--color-light-gray);
+    font-style: italic;
+  }
+
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-xl);
+  }
+
+  .page-btn {
+    background: transparent;
+    border: 1px solid var(--color-light-gray);
+    color: var(--color-white);
+    padding: var(--spacing-xs) var(--spacing-md);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.15s ease;
+
+    &:hover:not(:disabled) {
+      opacity: 0.7;
+    }
+
+    &:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+  }
+
+  .page-indicator {
     color: var(--color-light-gray);
     font-style: italic;
   }
