@@ -129,7 +129,7 @@ clips:
     description: An article I co-authored about elevator repairs at Morris Park Senior Citizens Home in East Harlem, where residents are left feeling worried about the next outage as summer approaches.
     url: https://citylimits.org/as-summer-approaches-nycha-tenants-in-east-harlem-wait-for-elevator-repairs/
     skills: [reporting, photojournalism, data analysis, fact-checking]
-    highlight: true
+    highlight: false
   
   - slug: states-redistricting
     title: SCOTUS Ruling Ignites Redistricting War
@@ -273,3 +273,14 @@ clips:
     url: https://foodbanknews.org/snap-takes-center-stage-in-online-advocacy-efforts/
     skills: [data analysis, data visualization, research, reporting, fact-checking]
     highlight: false
+  
+  - slug: mobilesolar-foodbanks
+    title: With Mobile Solar Power, Food Banks Add Resiliency
+    pubdate: 10/21/2026
+    outlet: Food Bank News
+    image: /portfolio_images/foodbank-mobilesolar.jpeg
+    imageAlt: A VeggieRescue mobile solar van.
+    description: An article about food banks and other hunger relief organizations that are using mobile cold storage powered by solar, building disaster and climate resiliency in the process.
+    url: https://foodbanknews.org/with-mobile-solar-power-food-banks-add-resiliency/
+    skills: [reporting, fact-checking]
+    highlight: true
