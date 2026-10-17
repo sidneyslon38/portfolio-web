@@ -126,7 +126,7 @@ clips:
     outlet: City Limits
     image: /portfolio_images/nycha-elevators.jpeg
     imageAlt: A NYCHA building in East Harlem.
-    description: An article I co-authored about elevator repairs at Morris Park Senior Citizens Home in East Harlem, where residents are left feeling worried about the next outage as summer approaches.
+    description: A feature I co-authored about elevator repairs at Morris Park Senior Citizens Home in East Harlem, where residents are left feeling worried about the next outage as summer approaches.
     url: https://citylimits.org/as-summer-approaches-nycha-tenants-in-east-harlem-wait-for-elevator-repairs/
     skills: [reporting, photojournalism, data analysis, fact-checking]
     highlight: false
@@ -225,7 +225,7 @@ clips:
     outlet: Food Bank News
     image: /portfolio_images/foodbanknews.jpg
     imageAlt: Food Bank News logo.
-    description: An article about Hatch for Hunger, a non-profit that is working to close the animal protein gap in the U.S. charitable food system by establishing a coalition of non-profit organizations, industry food producers and government agencies.
+    description: A startup profile of Hatch for Hunger, a non-profit that is working to close the animal protein gap in the U.S. charitable food system by establishing a coalition of non-profit organizations, industry food producers and government agencies.
     url: https://foodbanknews.org/hatch-wants-to-close-the-animal-protein-gap/
     skills: [reporting, fact-checking]
     highlight: false
@@ -236,7 +236,7 @@ clips:
     outlet: Food Bank News
     image: /portfolio_images/foodbanknews.jpg
     imageAlt: Food Bank News logo.
-    description: An article about John Lowrey, a professor who is developing a business-to-business food rescue app to rival Feeding America's Meal Connect app. FoodALERT would allow independent food banks and Feeding America partners to use up-to-date donation data, decreasing food waste across the U.S.
+    description: A profile of John Lowrey, a professor who is developing a business-to-business food rescue app to rival Feeding America's Meal Connect app. FoodALERT would allow independent food banks and Feeding America partners to use up-to-date donation data, decreasing food waste across the U.S.
     url: https://foodbanknews.org/this-food-rescue-app-wants-to-increase-donation-volumes/
     skills: [reporting, fact-checking]
     highlight: false
@@ -247,7 +247,7 @@ clips:
     outlet: Food Bank News
     image: /portfolio_images/foodbanknews.jpg
     imageAlt: Food Bank News logo.
-    description: An article about New York Common Pantry's hygiene services, including showers, laundry and haircuts.
+    description: A short feature on New York Common Pantry's hygiene services, including showers, laundry and haircuts.
     url: https://foodbanknews.org/nyc-pantry-goes-all-in-on-hygiene-services/
     skills: [reporting, fact-checking]
     highlight: false
@@ -258,7 +258,7 @@ clips:
     outlet: Food Bank News
     image: /portfolio_images/foodbank-solarroof.jpg
     imageAlt: Food Bank of the Rockies solar roof, with a blue sky and clouds in the background.
-    description: An article about food banks that are financing large solar projects, even amid federal cuts to renewable energy support.
+    description: A feature about food banks that are financing large solar projects, even amid federal cuts to renewable energy support.
     url: https://foodbanknews.org/food-banks-carve-new-pathways-to-solar-energy/
     skills: [reporting, fact-checking]
     highlight: true
@@ -269,18 +269,40 @@ clips:
     outlet: Food Bank News
     image: /portfolio_images/fbn-2026honorroll.png
     imageAlt: 2026 Food Bank News Advocacy Honor Roll report.
-    description: An article and data report for Food Bank News' 2026 Advocacy Honor Roll, which highlights the top 100 food banks by revenue for their online advocacy activity, and 2026 trends among their websites.
+    description: A feature and data report for Food Bank News' 2026 Advocacy Honor Roll, which highlights the top 100 food banks by revenue for their online advocacy activity, and 2026 trends among their websites.
     url: https://foodbanknews.org/snap-takes-center-stage-in-online-advocacy-efforts/
     skills: [data analysis, data visualization, research, reporting, fact-checking]
     highlight: false
   
   - slug: mobilesolar-foodbanks
     title: With Mobile Solar Power, Food Banks Add Resiliency
-    pubdate: 10/21/2026
+    pubdate: 08/21/2026
     outlet: Food Bank News
     image: /portfolio_images/foodbank-mobilesolar.jpeg
     imageAlt: A VeggieRescue mobile solar van.
-    description: An article about food banks and other hunger relief organizations that are using mobile cold storage powered by solar, building disaster and climate resiliency in the process.
+    description: A feature on food banks and other hunger relief organizations that are using mobile cold storage powered by solar, building disaster and climate resiliency in the process.
     url: https://foodbanknews.org/with-mobile-solar-power-food-banks-add-resiliency/
     skills: [reporting, fact-checking]
     highlight: true
+
+  - slug: freewill-foodbanks
+    title: How 31 Food Banks are Boosting Legacy Giving
+    pubdate: 9/5/2026
+    outlet: Food Bank News
+    image: /portfolio_images/foodbanknews.jpg
+    imageAlt: Food Bank News logo.
+    description: A short company profile of FreeWill, and its efforts to help food banks increase legacy giving.
+    url: https://foodbanknews.org/how-31-food-banks-are-boosting-legacy-giving/
+    skills: [reporting, fact-checking]
+    highlight: false
+
+  - slug: donorlink-foodbanks
+    title: New Tool Aims to Rescue Restaurant Food
+    pubdate: 10/4/2026
+    outlet: Food Bank News
+    image: /portfolio_images/foodbanknews.jpg
+    imageAlt: Food Bank News logo.
+    description: A short Climate Week spotlight on DonorLink, a new FoodRescueUS tool integrated with Toast, that allows restaurants to seamlessly donate excess food to pantries and foodbanks.
+    url: https://foodbanknews.org/new-tool-aims-to-rescue-restaurant-food/
+    skills: [reporting, fact-checking]
+    highlight: false
