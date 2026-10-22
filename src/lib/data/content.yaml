@@ -261,7 +261,7 @@ clips:
     description: A feature about food banks that are financing large solar projects, even amid federal cuts to renewable energy support.
     url: https://foodbanknews.org/food-banks-carve-new-pathways-to-solar-energy/
     skills: [reporting, fact-checking]
-    highlight: true
+    highlight: false
 
   - slug: foodbanknews-2026advocacy
     title: SNAP Takes Center Stage In Online Advocacy Efforts
@@ -306,3 +306,14 @@ clips:
     url: https://foodbanknews.org/new-tool-aims-to-rescue-restaurant-food/
     skills: [reporting, fact-checking]
     highlight: false
+  
+  - slug: nycleadlaw
+    title: Advocates Have Ideas To Support Lead-Hit Families. They Don't All Agree.
+    pubdate: 07/01/2026
+    outlet: Substack
+    image: /portfolio_images/lead-epa-flyer.jpg
+    imageAlt: An EPA flyer about lead poisoning in children.
+    description: A short accountability feature I self-published about the state of lead paint law in New York City, and where some families are falling through the cracks.
+    url: https://sidslon.substack.com/p/advocates-have-ideas-to-support-lead
+    skills: [reporting, fact-checking]
+    highlight: true
